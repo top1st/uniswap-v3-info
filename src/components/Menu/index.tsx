@@ -97,11 +97,11 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://uniswap.org/">
+          <MenuItem id="link" href="https://mintyswap.com/">
             <Info size={14} />
             About
           </MenuItem>
-          <MenuItem id="link" href="https://docs.uniswap.org/">
+          <MenuItem id="link" href="https://docs.mintyswap.com/">
             <BookOpen size={14} />
             Docs
           </MenuItem>

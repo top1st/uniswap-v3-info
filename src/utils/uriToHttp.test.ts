@@ -17,9 +17,9 @@ describe('uriToHttp', () => {
     ])
   })
   it('returns ipns gateways for ipns:// urls', () => {
-    expect(uriToHttp('ipns://app.uniswap.org')).toEqual([
-      'https://cloudflare-ipfs.com/ipns/app.uniswap.org/',
-      'https://ipfs.io/ipns/app.uniswap.org/',
+    expect(uriToHttp('ipns://dex.mintyswap.com')).toEqual([
+      'https://cloudflare-ipfs.com/ipns/dex.mintyswap.com/',
+      'https://ipfs.io/ipns/dex.mintyswap.com/',
     ])
   })
   it('returns empty array for invalid scheme', () => {

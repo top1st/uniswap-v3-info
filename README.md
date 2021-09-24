@@ -1,8 +1,8 @@
-## Uniswap Info V3
+## Mintyswap Info V3
 
 An open sourced interface for Uniswap V3 analytics. 
 
-Info URL: https://info.uniswap.org/#/
+Info URL: https://info.mintyswap.com/#/
 
 ## Development
 

@@ -95,7 +95,7 @@ export default function NetworkDropdown() {
       <Wrapper onClick={() => setShowMenu(!showMenu)}>
         <RowFixed>
           <LogoWrapper src={activeNetwork.imageURL} />
-          <TYPE.main fontSize="14px" color={theme.white} ml="8px" mt="-2px" mr="2px" style={{ whiteSpace: 'nowrap' }}>
+          <TYPE.main fontSize="14px" color={theme.black} ml="8px" mt="-2px" mr="2px" style={{ whiteSpace: 'nowrap' }}>
             {activeNetwork.name}
           </TYPE.main>
           {activeNetwork === EthereumNetworkInfo ? null : (
@@ -126,7 +126,7 @@ export default function NetworkDropdown() {
                         <LogoWrapper src={n.imageURL} />
                         {activeNetwork.id === n.id && <GreenDot />}
                       </LogaContainer>
-                      <TYPE.main ml="12px" color={theme.white}>
+                      <TYPE.main ml="12px" color={theme.black}>
                         {n.name}
                       </TYPE.main>
                     </RowFixed>
