@@ -6,7 +6,7 @@ export const healthClient = new ApolloClient({
 })
 
 export const blockClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/blocklytics/ethereum-blocks',
+  uri: 'https://api.thegraph.com/subgraphs/name/billjhlee/rinkeby-blocks',
   cache: new InMemoryCache(),
   queryDeduplication: true,
   defaultOptions: {
@@ -21,7 +21,7 @@ export const blockClient = new ApolloClient({
 })
 
 export const client = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3',
+  uri: 'https://api.thegraph.com/subgraphs/name/top1st/mintyswap-v3-rinkeby',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {
