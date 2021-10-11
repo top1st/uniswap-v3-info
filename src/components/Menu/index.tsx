@@ -105,10 +105,10 @@ export default function Menu() {
             <BookOpen size={14} />
             Docs
           </MenuItem>
-          <MenuItem id="link" href={CODE_LINK}>
-            <Code size={14} />
-            Github
-          </MenuItem>
+          {/*<MenuItem id="link" href={CODE_LINK}>*/}
+          {/*  <Code size={14} />*/}
+          {/*  Github*/}
+          {/*</MenuItem>*/}
           <MenuItem id="link" href="https://discord.gg/FCfyBSbCU5">
             <MessageCircle size={14} />
             Discord
